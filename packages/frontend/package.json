@@ -1,0 +1,19 @@
+{
+  "name": "@app/frontend",
+  "version": "1.0.0",
+  "description": "Front end React",
+  "keywords": [],
+  "author": "Cédric Ngouné",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.32",
+    "@types/react-dom": "^18.0.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

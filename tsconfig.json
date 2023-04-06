@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "preserveConstEnums": true,
+    "strictNullChecks": true
+  },
+  "compileOnSave": true,
+  "files": [],
+  "exclude": ["**/dist", "**/build", "node_modules"],
+  "references": [
+    { "path": "packages/backend" },
+    { "path": "packages/frontend" }
+  ]
+}

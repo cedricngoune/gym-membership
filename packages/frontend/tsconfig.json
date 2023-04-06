@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "module": "ESNext",
+    "rootDir": "src",
+    "outDir": "build",
+    "lib": ["es2021", "dom", "dom.iterable"]
+  },
+  "include": ["src/**/*"]
+}
